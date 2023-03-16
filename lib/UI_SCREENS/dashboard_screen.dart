@@ -2,7 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:glassmorphism/glassmorphism.dart';
-import 'package:nft_social_media_flutter_ui/UI/profile_Screen.dart';
+import 'package:nft_social_media_flutter_ui/UI_SCREENS/profile_Screen.dart';
 import 'package:page_transition/page_transition.dart';
 
 import '../Constant File/List.dart';
@@ -224,11 +224,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                     height: 75.h,
                                     width: 75.w,
                                     decoration: BoxDecoration(
-                                        gradient: const LinearGradient(
+                                        gradient: LinearGradient(
                                           colors: [
-                                            Colors.orange,
-                                            Colors.orange,
-                                            Colors.yellow
+                                            Colors.cyan.shade900,
+                                            Colors.cyan.shade800,
+                                            Colors.cyan.shade400,
+                                            Colors.cyan.shade500,
+                                            // Colors.orange,
+                                            // Colors.orange,
+                                            // Colors.yellow
                                           ],
                                         ),
                                         borderRadius:

@@ -36,9 +36,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     size: 28.sp,
                   ),
                 ),
-                SizedBox(width: 100.w),
+                SizedBox(width: 80.w),
                 Text(
-                  simonprofile,
+                  princeprofile,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 18.sp,
@@ -78,7 +78,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      simonLee,
+                      princeprofile,
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 20.sp,
@@ -108,10 +108,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   child: DecoratedBox(
                     decoration: BoxDecoration(
                       gradient: LinearGradient(colors: [
-                        Colors.yellow.shade900,
-                        Colors.yellow.shade900,
-                        Colors.orange.shade400,
-                        Colors.orange.shade400,
+                        Colors.cyan.shade900,
+                        Colors.cyan.shade800,
+                        Colors.cyan.shade400,
+                        Colors.cyan.shade500,
                       ]),
                       borderRadius: BorderRadius.circular(20.r),
                     ),

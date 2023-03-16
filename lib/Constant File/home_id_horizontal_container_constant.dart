@@ -4,7 +4,7 @@ import 'package:page_transition/page_transition.dart';
 
 import '../String File/image_string.dart';
 import '../String File/text_string.dart';
-import '../UI/dashboard_screen.dart';
+import '../UI_SCREENS/dashboard_screen.dart';
 
 int selectedIndex = 0;
 

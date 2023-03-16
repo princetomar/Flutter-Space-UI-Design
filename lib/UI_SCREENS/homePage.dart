@@ -158,7 +158,7 @@ class _HomePageState extends State<HomePage> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsets.only(
-                                        right: 15, left: 15, top: 10),
+                                        right: 9, left: 15, top: 10),
                                     child: Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,

@@ -10,9 +10,9 @@ const String top = "# top";
 const String artist = "# artist";
 
 ///___________ ProfileScreen___________
-const String simonprofile = "simon";
+const String princeprofile = "Prince Tomar";
 const String simonLee = "Simon Lee";
-const String simonLeeSub = "A 3D beginner & a blender\nuser from China.";
+const String simonLeeSub = "Flutter App Developer\nIndia.";
 const String follow = "Follow";
 const String created = "Created";
 const String collected = "Collected";
